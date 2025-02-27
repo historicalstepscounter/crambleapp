@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Supaday App</title>
+    <style>
+        :root {
+            --accent-green: #34D399;
+            --bg-dark: #111827;
+            --text-light: #F9FAFB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #374151;
+            background-color: var(--text-light);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(17, 24, 39, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-logo {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-green);
+        }
+
+        .privacy-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 8rem 20px 4rem;
+        }
+
+        .privacy-title {
+            font-size: 2.5rem;
+            color: var(--bg-dark);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .privacy-content {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            line-height: 1.7;
+        }
+
+        .privacy-content .intro {
+            font-size: 1.1rem;
+            color: #4B5563;
+            margin-bottom: 2rem;
+        }
+
+        .policy-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .policy-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-section h2 {
+            color: var(--bg-dark);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .policy-section p {
+            color: #4B5563;
+            margin-bottom: 1rem;
+        }
+
+        .policy-section ul {
+            list-style-type: none;
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .policy-section ul li {
+            color: #4B5563;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+
+        .policy-section ul li:before {
+            content: "•";
+            color: var(--accent-green);
+            font-weight: bold;
+            position: absolute;
+            left: -1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .privacy-title {
+                font-size: 2rem;
+            }
+
+            .privacy-content {
+                padding: 1.5rem;
+            }
+            
+            .policy-section {
+                margin-bottom: 2rem;
+            }
+            
+            .policy-section h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Supaday</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="privacy.html" class="nav-link">Privacy Policy</a>
+                <a href="terms.html" class="nav-link">Terms of Use</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="privacy-container">
+        <h1 class="privacy-title">Privacy Policy</h1>
+        <div class="privacy-content">
+            <p class="intro">
+                Welcome to Supa Day. Your privacy is our priority. This Privacy Policy explains how we handle your data while using the app.
+            </p>
+
+            <section class="policy-section">
+                <h2>1. Information We Collect</h2>
+                <p>We do not collect or store personal data, such as names, email addresses, or your journaling history. The information provided is processed anonymously through the ChatGPT API to deliver structured responses.</p>
+                
+                <p>We may collect the following anonymous usage data:</p>
+                <ul>
+                    <li>Device Information: General details about your device, like the model and operating system.</li>
+                    <li>Session Data: App usage patterns to improve the experience, such as session length and interaction frequency.</li>
+                </ul>
+            </section>
+
+            <section class="policy-section">
+                <h2>2. How We Use Your Information</h2>
+                <ul>
+                    <li>Service Delivery: To structure and enhance your journaling activities with AI.</li>
+                    <li>Feature Restrictions: We provide limited features under the free and paid versions, which are outlined during subscription purchases.</li>
+                    <li>Security: To maintain operational stability and protect the app from misuse.</li>
+                </ul>
+            </section>
+
+            <section class="policy-section">
+                <h2>3. Subscription Features</h2>
+                <p>The app offers both free and paid versions. Users will be notified about feature limitations when purchasing a subscription.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>4. Data Sharing</h2>
+                <p>We do not sell or store your data. Information shared through the app is processed anonymously and only used for real-time AI responses. Data related to subscriptions may be shared with third-party services like RevenueCat to manage entitlements and analytics.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>5. Data Security</h2>
+                <p>We apply security measures to protect your data during transmission through the ChatGPT API. However, we cannot guarantee absolute security.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>6. Disclaimer of Responsibility</h2>
+                <p>Supaday is designed to help you record and structure your daily activities. However, we are not responsible for any unintended consequences, misuse, or incorrect interpretations resulting from your use of the app.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>7. Age Limitation</h2>
+                <p>Our app is not intended for children under 9, and we do not knowingly collect any information from them.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>8. Changes to This Privacy Policy</h2>
+                <p>We reserve the right to update this policy. Any significant changes will be communicated through the app or via email, if applicable.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>9. Contacts: </h2>
+                <p>email: supadayapp@gmail.com</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html> 
